@@ -2,7 +2,7 @@
 % Please edit documentation in R/not-in.R
 \name{\%nin\%}
 \alias{\%nin\%}
-\title{human readable title here. check similar packages.}
+\title{Not Value Matching}
 \usage{
 x \%nin\% table
 }
@@ -12,8 +12,44 @@ x \%nin\% table
 \item{table}{vector of NULL; values to be matched against}
 }
 \value{
-a logical vector
+Returns a logical vector
 }
 \description{
-human readable title here. check similar packages.
+Infix Function returns a logical vector of non-matches.
+}
+\examples{
+c(2,3,4) \%nin\% c(5,6,7)
+
+"string" \%nin\% c("other","words")
+
+## Check if a single element is present in the vector
+# Example vector
+x <- c(1, 2, 3, 4, 5)
+is_present <- 3 \%in\% x
+print(is_present)
+
+
+## Check if multiple elements are present in the vector
+# Example vectors
+x <- c(1, 2, 3, 4, 5)
+y <- c(2, 6, 8)
+
+are_present <- y \%in\% x
+print(are_present)
+
+
+
+## Filter the data frame based on multiple conditions
+# Example data frame
+df <- data.frame(ID = c(1, 2, 3, 4, 5),
+                Name = c("Alice", "Bob", "Charlie", "David", "Eve"),
+                Age = c(25, 30, 22, 35, 28))
+
+filtered_df <- df[df$Age \%in\% c(22, 28), ]
+print(filtered_df)
+
+
+
+
+
 }
