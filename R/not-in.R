@@ -22,13 +22,11 @@
 #' are_not_present <- y %nin% x
 #' print(are_not_present)
 #'
-#' ## Filter the data frame based on multiple conditions
+#' ## Filter a data frame based on multiple conditions
 #' df <- data.frame(
 #'   ID = c(1, 2, 3, 4, 5),
 #'   Name = c("Alice", "Bob", "Charlie", "David", "Eve"),
-#'   Age = c(25, 30, 22, 35, 28)
-#' )
-#'
+#'   Age = c(25, 30, 22, 35, 28))
 #' filtered_df <- df[df$Age %nin% c(22, 28), ]
 #' print(filtered_df)
 "%nin%" <- function(x, table) !match(x, table, nomatch = 0)
