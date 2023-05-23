@@ -1,10 +1,21 @@
 Package: baseplus
-Title: What the Package Does (One Line, Title Case)
+Title: Novel Features Derived from BaseR Functions
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+  c(person(given = "Joe",
+             family = "Thorley",
+             role = c("aut", "cre"),
+             email = "joe@poissonconsulting.ca",
+             comment = c(ORCID = "0000-0002-7683-4592")),
+   person(given = "Ayla",
+             family = "Pearson",
+             role = "ctb",
+             comment = c(ORCID = "0000-0001-7388-1222")),
+   person(given = "Sarah",
+             family = "Lyons",
+             role = "ctb",
+             comment = c(ORCID = "0000-0002-6745-6796")))
+Description: Baseplus aims to enhance functionality by developing novel features derived from the foundation of baseR.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)

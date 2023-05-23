@@ -29,4 +29,5 @@
 #'   Age = c(25, 30, 22, 35, 28))
 #' filtered_df <- df[df$Age %nin% c(22, 28), ]
 #' print(filtered_df)
+#'
 "%nin%" <- function(x, table) !match(x, table, nomatch = 0)

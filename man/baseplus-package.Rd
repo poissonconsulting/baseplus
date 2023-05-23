@@ -4,12 +4,18 @@
 \name{baseplus-package}
 \alias{baseplus}
 \alias{baseplus-package}
-\title{baseplus: What the Package Does (One Line, Title Case)}
+\title{baseplus: Novel Features Derived from BaseR Functions}
 \description{
-What the package does (one paragraph).
+Baseplus aims to enhance functionality by developing novel features derived from the foundation of baseR.
 }
 \author{
-\strong{Maintainer}: First Last \email{first.last@example.com} (\href{https://orcid.org/YOUR-ORCID-ID}{ORCID})
+\strong{Maintainer}: Joe Thorley \email{joe@poissonconsulting.ca} (\href{https://orcid.org/0000-0002-7683-4592}{ORCID})
+
+Other contributors:
+\itemize{
+  \item Ayla Pearson (\href{https://orcid.org/0000-0001-7388-1222}{ORCID}) [contributor]
+  \item Sarah Lyons (\href{https://orcid.org/0000-0002-6745-6796}{ORCID}) [contributor]
+}
 
 }
 \keyword{internal}
