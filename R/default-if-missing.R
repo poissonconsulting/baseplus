@@ -6,7 +6,7 @@
 #' @param y replacement value for 0 or NULL
 #' @return replacement value if x is NULL
 #' @export
-#'
+#' @name DefaultIfMising
 #' @examples
 #' ## replace a NULL value with a replacement value
 #'x <- NULL
@@ -22,7 +22,3 @@
 #'
 #'
 "%||%" <- function(x, y) if (is.null(x) || length(x) == 0) y else x
-
-
-
-
