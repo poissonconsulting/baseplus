@@ -33,6 +33,13 @@ library(baseplus)
 output <- "x" %nin% c("a", "b", "c")
 print(output)
 ```
+## Example
+The infix operator '%||%' replaces NULL values with 
+```{r}
+library(baseplus)
+output <- "x" %nin% c("a", "b", "c")
+print(output)
+```
 
 ## Inspiration
  - base
