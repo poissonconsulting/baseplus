@@ -24,7 +24,7 @@ Infix function returns a logical vector of non-matches.
 ## Check if a single element is not present in the vector
 x <- c(1, 2, 3, 4, 5)
 is_present <- 3 \%nin\% x
-print(is_not_present)
+print(is_present)
 
 ## Check if multiple elements are not present in the vector
 x <- c(1, 2, 3, 4, 5)
