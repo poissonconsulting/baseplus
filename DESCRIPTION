@@ -13,16 +13,15 @@ Authors@R:
              comment = c(ORCID = "0000-0001-7388-1222")),
    person(given = "Sarah",
              family = "Lyons",
-             role = "ctb",
+             role = "aut",
              comment = c(ORCID = "0000-0002-6745-6796")))
 Description: Baseplus aims to enhance functionality by developing novel features derived from the foundation of baseR.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
-Suggests: 
+Suggests:
     covr,
+    lifecycle,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
-Imports: 
-    lifecycle

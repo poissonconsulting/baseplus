@@ -30,4 +30,4 @@
 #' filtered_df <- df[df$Age %nin% c(22, 28), ]
 #' print(filtered_df)
 #'
-'%nin%' <- function(x, table) !match(x, table, nomatch = 0)
+`%nin%` <- function(x, table) !match(x, table, nomatch = 0)

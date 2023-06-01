@@ -11,10 +11,14 @@ Baseplus aims to enhance functionality by developing novel features derived from
 \author{
 \strong{Maintainer}: Joe Thorley \email{joe@poissonconsulting.ca} (\href{https://orcid.org/0000-0002-7683-4592}{ORCID})
 
+Authors:
+\itemize{
+  \item Sarah Lyons (\href{https://orcid.org/0000-0002-6745-6796}{ORCID})
+}
+
 Other contributors:
 \itemize{
   \item Ayla Pearson (\href{https://orcid.org/0000-0001-7388-1222}{ORCID}) [contributor]
-  \item Sarah Lyons (\href{https://orcid.org/0000-0002-6745-6796}{ORCID}) [contributor]
 }
 
 }
