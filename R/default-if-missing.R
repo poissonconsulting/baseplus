@@ -1,7 +1,7 @@
 #' Default if Missing
 #' @description
 #' Infix function will replace missing values with another value.
-#'
+#'`r lifecycle::badge('experimental')`
 #' @param x input
 #' @param y replacement value for 0 or NULL
 #' @return replacement value if x is NULL
@@ -21,4 +21,4 @@
 #'testFunction()
 #'
 #'
-"%||%" <- function(x, y) if (is.null(x) || length(x) == 0) y else x
+'%||%' <- function(x, y) if (is.null(x) || length(x) == 0) y else x

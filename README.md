@@ -4,6 +4,10 @@
 # baseplus
 
 <!-- badges: start -->
+
+[![Codecov test
+coverage](https://codecov.io/gh/poissonconsulting/baseplus/branch/main/graph/badge.svg)](https://app.codecov.io/gh/poissonconsulting/baseplus?branch=main)
+[![R-CMD-check](https://github.com/poissonconsulting/baseplus/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/poissonconsulting/baseplus/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 Baseplus aims to enhance functionality by developing novel features
@@ -19,10 +23,10 @@ To install the latest development version from
 remotes::install_github("poissonconsulting/baseplus")
 ```
 
-## Example
+## Examples
 
 The infix operator ‘%nin%’ returns a logical vector determining if x is
-NOT in table.
+NOT present.
 
 ``` r
 library(baseplus)
@@ -31,15 +35,15 @@ print(output)
 #> [1] TRUE
 ```
 
-## Example
-
-The infix operator ‘%\|\|%’ replaces NULL values with
+The infix operator ‘%\|\|%’ replaces NULL values with a specified
+replacement value.
 
 ``` r
 library(baseplus)
-output <- "x" %nin% c("a", "b", "c")
-print(output)
-#> [1] TRUE
+x <- NULL
+x <- x %||% "replacementValue"
+print(x)
+#> [1] "replacementValue"
 ```
 
 ## Inspiration
