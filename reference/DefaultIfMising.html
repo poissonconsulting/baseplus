@@ -57,7 +57,7 @@
 
 
 <dt>y</dt>
-<dd><p>replacement value for 0 or NULL</p></dd>
+<dd><p>replacement value for length(0) or NULL</p></dd>
 
 </dl></div>
     <div id="value">
@@ -83,6 +83,13 @@
 <span class="r-in"><span><span class="op">}</span></span></span>
 <span class="r-in"><span><span class="fu">testFunction</span><span class="op">(</span><span class="op">)</span></span></span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [1] "foo" "bar"</span>
+<span class="r-in"><span></span></span>
+<span class="r-in"><span><span class="co">## replace x if length of x is 0</span></span></span>
+<span class="r-in"><span><span class="va">x</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/list.html" class="external-link">list</a></span><span class="op">(</span><span class="op">)</span></span></span>
+<span class="r-in"><span><span class="va">replacementValue</span> <span class="op">&lt;-</span> <span class="st">"replacement"</span></span></span>
+<span class="r-in"><span><span class="va">output</span> <span class="op">&lt;-</span> <span class="va">x</span> <span class="op">%||%</span> <span class="va">replacementValue</span></span></span>
+<span class="r-in"><span><span class="fu"><a href="https://rdrr.io/r/base/print.html" class="external-link">print</a></span><span class="op">(</span><span class="va">output</span><span class="op">)</span></span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] "replacement"</span>
 <span class="r-in"><span></span></span>
 <span class="r-in"><span></span></span>
 </code></pre></div>
