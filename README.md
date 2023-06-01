@@ -37,8 +37,8 @@ print(output)
 #> [1] TRUE
 ```
 
-The infix operator `%||%` replaces NULL values with a specified
-replacement value.
+The infix operator `%||%` replaces NULL or length of 0 values with a
+specified replacement value.
 
 ``` r
 library(baseplus)

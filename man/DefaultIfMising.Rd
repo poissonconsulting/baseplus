@@ -10,7 +10,7 @@ x \%||\% y
 \arguments{
 \item{x}{input}
 
-\item{y}{replacement value for 0 or NULL}
+\item{y}{replacement value for length(0) or NULL}
 }
 \value{
 replacement value if x is NULL
@@ -30,6 +30,12 @@ testFunction <- function(x=NULL, y = "bar"){
 print(c(x, y))
 }
 testFunction()
+
+## replace x if length of x is 0
+x <- list()
+replacementValue <- "replacement"
+output <- x \%||\% replacementValue
+print(output)
 
 
 }

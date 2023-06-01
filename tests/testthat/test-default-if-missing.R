@@ -39,3 +39,9 @@ test_that("empty lists are replaced", {
   output <- x %||% replacementValue
   expect_equal(output, replacementValue)
 })
+
+
+x <- list()
+replacementValue <- "replacement"
+output <- x %||% replacementValue
+print(output)
