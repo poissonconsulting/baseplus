@@ -27,7 +27,7 @@ remotes::install_github("poissonconsulting/baseplus")
 
 ## Examples
 
-The infix operator ‘%nin%’ returns a logical vector determining if x is
+The infix operator `%nin%` returns a logical vector determining if x is
 NOT present.
 
 ``` r
@@ -37,7 +37,7 @@ print(output)
 #> [1] TRUE
 ```
 
-The infix operator ‘%\|\|%’ replaces NULL values with a specified
+The infix operator `%||%` replaces NULL values with a specified
 replacement value.
 
 ``` r
