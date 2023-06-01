@@ -16,7 +16,6 @@ x \%||\% y
 replacement value if x is NULL
 }
 \description{
-\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#experimental}{\figure{lifecycle-experimental.svg}{options: alt='[Experimental]'}}}{\strong{[Experimental]}}
 Infix function will replace missing values with another value.
 }
 \examples{

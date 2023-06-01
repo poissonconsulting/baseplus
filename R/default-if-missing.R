@@ -1,6 +1,5 @@
 #' Default if Missing
 #' @description
-#' `r lifecycle::badge("experimental")`
 #' Infix function will replace missing values with another value.
 #'
 #' @param x input

@@ -8,6 +8,8 @@
 [![Codecov test
 coverage](https://codecov.io/gh/poissonconsulting/baseplus/branch/main/graph/badge.svg)](https://app.codecov.io/gh/poissonconsulting/baseplus?branch=main)
 [![R-CMD-check](https://github.com/poissonconsulting/baseplus/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/poissonconsulting/baseplus/actions/workflows/R-CMD-check.yaml)
+[![Lifecycle:
+experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 <!-- badges: end -->
 
 Baseplus aims to enhance functionality by developing novel features
