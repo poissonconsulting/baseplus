@@ -21,16 +21,16 @@ test_that("output has no NA values", {
 
 test_that("input and search a seqence of numbers", {
   output <- seq(1, 3, 1) %nin% seq(1, 3, 1)
-  expect_equal(output,c(FALSE, FALSE, FALSE))
+  expect_equal(output, c(FALSE, FALSE, FALSE))
 })
 
 test_that("output is a logical vector", {
-  output <-  c(1, 2, 3) %nin% c(4, 5, 6)
+  output <- c(1, 2, 3) %nin% c(4, 5, 6)
   expect_type(output, "logical")
 })
 
 test_that("inverse is calculated correctly", {
-  output <-  !(c(1) %nin% c(4, 5, 6))
+  output <- !(c(1) %nin% c(4, 5, 6))
   expect_equal(output, FALSE)
 })
 
@@ -73,11 +73,11 @@ test_that("character numbers are matched to ints", {
 })
 
 test_that("character number matched to doubles", {
-  output <- as.character(1) %nin%  c(1, 2, 3)
+  output <- as.character(1) %nin% c(1, 2, 3)
   expect_equal(output, FALSE)
 })
 
 test_that("character number matched to ints", {
-  output <- as.character(1) %nin%  c(1L, 2L, 3L)
+  output <- as.character(1) %nin% c(1L, 2L, 3L)
   expect_equal(output, FALSE)
 })
