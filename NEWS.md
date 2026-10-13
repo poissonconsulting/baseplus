@@ -1,4 +1,9 @@
-<!-- NEWS.md is maintained by https://cynkra.github.io/fledge, do not edit -->
+<!-- NEWS.md is maintained by https://fledge.cynkra.com, contributors should not edit this file -->
+
+# baseplus 0.0.0.9002
+
+- Same as previous version.
+
 
 # baseplus 0.0.0.9001
 
